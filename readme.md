@@ -5,6 +5,10 @@
 
 Для работы необходима предварительная распаковка с помощью decompress.exe с сайта [Gildor.org](http://www.gildor.org/downloads).
 
+##Ключи запуска
+`-nolog` отключение журналирования в файл umapPatchLog.txt
+`--rollback` откат изменений графического интерфейса. Откат производится только в части интерфейса, обратного сжатия файлов не произойдет. Для возврата к исходному состоянию файла необходима проверка кэша Steam или переустановка игры.
+
 ## Изменения в GFX-файлах
 
 ### W_Startup.INT
@@ -16,7 +20,7 @@ inworld_ui weapon_card
 sprite  184 object  99  scalex 52428->40000
                         scaley 65536->50000
 
-                    99  xmax - 6414 -> 8190
+                    99  xmax -6414 -> 8190
                         ymin -40 -> 100
                         ymax 945 -> 1085
 ```
@@ -27,7 +31,7 @@ menus_mission mission_interface
 sprite  382 object  295 scalex 52428->40000
                         scaley 65536->50000
 
-                    295 xmax - 6414 -> 8190
+                    295 xmax -6414 -> 8190
                         ymin -40 -> 100
                         ymax 945 -> 1085
 ```
@@ -40,14 +44,14 @@ menus_ingame_redux status_menu
 sprite  515 object  470 scalex 52428->40000
                         scaley 65536->50000
 
-                    470 xmax - 6414 -> 8190
+                    470 xmax -6414 -> 8190
                         ymin -40 -> 100
                         ymax 945 -> 1085
 
 sprite  590 object  581 scalex 52428->40000
                         scaley 65536->50000
 
-                    581 xmax - 6414 -> 8190
+                    581 xmax -6414 -> 8190
                         ymin -40 -> 100
                         ymax 945 -> 1085
 ```
@@ -59,14 +63,14 @@ menus_bank bank
 sprite  329 object  236 scalex 52428->40000
                         scaley 65536->50000
 
-                    236 xmax - 6414 -> 8190
+                    236 xmax -6414 -> 8190
                         ymin -40 -> 100
                         ymax 960 -> 1085
 
 sprite  408 object  398 scalex 52428->40000
                         scaley 65536->50000
 
-                    398 xmax - 6414 -> 8190
+                    398 xmax -6414 -> 8190
                         ymin -40 -> 100
                         ymax 930 -> 1085
 ```
@@ -81,14 +85,14 @@ menus_vending vending_machine
 sprite  342 object  252 scalex 52428->40000
                         scaley 65536->50000
                         
-                    252 xmax - 6414 -> 8190
+                    252 xmax -6414 -> 8190
                         ymin -40 -> 100
                         ymax 955 -> 1100
 
 sprite  418 object  409 scalex 52428->40000
                         scaley 65536->50000
 
-                    409 xmax - 6414 -> 8190
+                    409 xmax -6414 -> 8190
                         ymin -40 -> 100
                         ymax 960 -> 1100
 ```
@@ -97,14 +101,14 @@ sprite  418 object  409 scalex 52428->40000
 sprite  586 object  569 scalex 52428->40000
                         scaley 65536->50000
 
-                    569 xmax - 6414 -> 8190
+                    569 xmax -6414 -> 8190
                         ymin -40 -> 100
                         ymax 960 -> 1100
 
 sprite  621 object  612 scalex 52428->40000
                         scaley 65536->50000
 
-                    612 xmax - 6414 -> 8190
+                    612 xmax -6414 -> 8190
                         ymin -40 -> 100
                         ymax 960 -> 1100
 ```
@@ -113,14 +117,14 @@ sprite  621 object  612 scalex 52428->40000
 sprite  766 object  749 scalex 52428->40000
                         scaley 65536->50000
 
-                    749 xmax - 6414 -> 8190
+                    749 xmax -6414 -> 8190
                         ymin -40 -> 100
                         ymax 960 -> 1100
 
 sprite  801 object  792 scalex 52428->40000
                         scaley 65536->50000
 
-                    792 xmax - 6414 -> 8190
+                    792 xmax -6414 -> 8190
                         ymin -40 -> 100
                         ymax 960 -> 1100
 ```
@@ -151,5 +155,5 @@ sprite  515 object  470 scalex 52428->40000
 sprite  590 object  581 scalex 52428->40000
                     589 scalex 52428->40000
 
-sprite    597    object    514    scalex    52428->40000
+sprite  597 object  514 scalex 52428->40000
 ```
